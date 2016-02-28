@@ -1,0 +1,158 @@
+html,
+body {
+		height: 100%;
+}
+
+.project *,
+#contact-slide * {
+		transition: ease-out 0.2s;
+}
+
+.navbar-inner {
+		background: rgba(0, 0, 0, 0.7);
+		border: none;
+}
+
+body {
+		background-image: url(http://www.genealogyintime.com/GenealogyResources/Wallpaper/Brick-Wall-Images/images/31%20-%20old%20Beijing%20brick%20wall.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+}
+
+h1 {
+		margin: 25px 15px;
+}
+
+p {
+		margin: 20px 15px;
+}
+
+img {
+		margin: 25px auto;
+}
+
+.img-center {
+		margin: inherit auto;
+}
+
+.img-project-thumb {
+		position: absolute;
+		margin: 0;
+}
+
+.thumbnail-container {
+		margin: 0;
+		position: relative;
+		height: 200px;
+		width: 100%;
+		overflow: hidden;
+		border-radius: 5px 5px 0px 0px;
+		opacity: 0.9;
+}
+
+.container-fluid {
+		padding: 0px;
+		height: 100%;
+}
+
+.page {
+		z-index: 0;
+		position: relative;
+		padding: 10px;
+}
+
+.page-between {
+		height: 6px;
+		width: 100%;
+		border-radius: 2px;
+		margin-top: -3px;
+		z-index: 1;
+		position: absolute;
+		font-size: 20px;
+		color: black;
+		padding: 0px 8px;
+		background-color: #e5fbe4;
+/*		background-image: url(http://www.noupe.com/wp-content/uploads/2009/10/pattern-01.jpg);
+*/
+}
+
+.jumbotron {
+		margin: 0px;
+		padding: 40px;
+}
+
+#home-slide {
+		min-height: calc(100% + 5px);
+		padding-top: 100px;
+		background-color: transparent;
+		color: white;
+		text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+#about-slide {
+		background-color: blue;
+		background-attachment: static;
+}
+
+#about-slide h1 {
+		color: White;
+}
+
+#about-slide p,
+#contact-slide p {
+		color: #DDD;
+		font-size: 16px;
+}
+
+#about-slide img {
+	max-height: 350px;
+}
+
+#portfolio-slide {
+		background-image: url(http://www.genealogyintime.com/GenealogyResources/Wallpaper/Brick-Wall-Images/images/31%20-%20old%20Beijing%20brick%20wall.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;}
+
+#portfolio-slide .container {
+		width: 100%;
+		padding: 0px;
+}
+#portfolio-slide h1 {
+		color: White;
+		text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+}
+
+.project > div {
+		background-color: rgba(0, 0, 0, 0.7);
+		color: white;
+		text-align: center;
+		border-radius: 5px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+}
+
+.project > div a:hover .thumbnail-container {
+		opacity: 1;
+}
+
+.project div p {
+		color: #DDD;
+}
+
+#contact-slide {
+		padding: 25px;
+		background-color:#171A19;
+}
+
+#contact-slide a,
+#contact-slide p {
+		margin: 15px;
+		color: #a2a3a3;
+		transition: linear 0.05s;
+}
+
+#contact-slide a:hover {
+		color: white;
+}

@@ -56,6 +56,60 @@ img {
 		height: 100%;
 }
 
+/* CSS for Techology icon list below intro text */
+
+.tech {
+	background-size: cover;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	height: 70px;
+	width: 70px;
+	margin: 0 3px;
+	display: inline-block;
+}
+
+#techRow {
+	text-align: center;
+	padding: 20px;
+}
+
+.tech1 {
+	background-color: #ccc;
+	background-image: url("http://www.schoolbios.com/assets/images/design/technology/jquery.png");
+}
+
+.tech2 {
+	background-image: url("http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/s1600/js.jpg");
+}
+
+.tech3 {
+	background-color: #fff;
+	background-image: url("http://voidcanvas.com/wp-content/uploads/2015/10/angularjs-logo.png");
+}
+
+.tech4 {
+	background-image: url("https://kimtatthang.files.wordpress.com/2015/03/learning-node-js.png");
+}
+
+.tech5 {
+	background-color: #000;
+	background-image: url("https://image.freepik.com/free-icon/github-logo-in-a-rounded-square_318-40761.jpg");
+}
+
+.tech6 {
+	background-image: url("http://ionicframework.com/img/ionic-logo-blog.png");
+}
+
+.tech7 {
+	background-image: url("http://www.joshmorony.com/wp-content/uploads/2015/08/firebase-header-200x200.png");
+}
+
+.tech8 {
+	background-image: url("http://www.networkredux.com/sites/default/files/parners_summary_mongodb.jpg");
+}
+
+/* end tech CSS - from Cohort 11 website */
+
 .page {
 		z-index: 0;
 		position: relative;

@@ -1,3 +1,4 @@
 # schmitz1193.github.io
 
-This is the personal website of Stephanie S. Krause
+This is the personal website of Stephanie S. Krause created with Jekyll
+

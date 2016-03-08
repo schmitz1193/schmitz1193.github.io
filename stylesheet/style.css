@@ -14,7 +14,7 @@ body {
 }
 
 body {
-		background-image: url(http://www.genealogyintime.com/GenealogyResources/Wallpaper/Brick-Wall-Images/images/31%20-%20old%20Beijing%20brick%20wall.jpg);
+		background-image: url(../images/Beijing-brick-wall.jpg);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
@@ -24,8 +24,24 @@ h1 {
 		margin: 25px 15px;
 }
 
+h1.lower {
+		margin: 50px 15px;
+}
+
+h2 {
+		margin: 25px 15px 100px 15px;
+}
+
 p {
 		margin: 20px 15px;
+}
+
+p.space {
+		margin: 20px 15px 60px 15px;
+}
+
+.low-pic {
+		margin-top: 50px;
 }
 
 img {
@@ -74,42 +90,85 @@ img {
 }
 
 .tech1 {
-	background-color: #ccc;
-	background-image: url("http://www.schoolbios.com/assets/images/design/technology/jquery.png");
+	background-image: url("../images/CSS.png");
 }
-
 .tech2 {
-	background-image: url("http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/s1600/js.jpg");
+	background-image: url("../images/HTML5.png");
 }
 
 .tech3 {
-	background-color: #fff;
-	background-image: url("http://voidcanvas.com/wp-content/uploads/2015/10/angularjs-logo.png");
+	background-color: #ccc;
+	background-image: url("../images/JS.jpg");
 }
 
 .tech4 {
-	background-image: url("https://kimtatthang.files.wordpress.com/2015/03/learning-node-js.png");
+	background-image: url("../images/jquery.png");
 }
 
 .tech5 {
-	background-color: #000;
-	background-image: url("https://image.freepik.com/free-icon/github-logo-in-a-rounded-square_318-40761.jpg");
+	background-color: #fff;
+	background-image: url("../images/angularjs.png");
 }
 
 .tech6 {
-	background-image: url("http://ionicframework.com/img/ionic-logo-blog.png");
+	background-image: url("../images/node-js.png");
 }
 
 .tech7 {
-	background-image: url("http://www.joshmorony.com/wp-content/uploads/2015/08/firebase-header-200x200.png");
+	background-image: url("../images/expressjs.png");
 }
 
+
 .tech8 {
-	background-image: url("http://www.networkredux.com/sites/default/files/parners_summary_mongodb.jpg");
+	background-image: url("../images/firebase.png");
 }
 
 .tech9 {
-	background-image: url("https://pbs.twimg.com/profile_images/378800000722495387/ad968c1615d956e800fa36494314f48c.jpeg");
+	background-image: url("../images/mongodb-l.jpg");
+}
+
+.tech10 {
+	background-image: url("../images/mongolab.jpg");
+}
+
+.tech11 {
+	background-image: url("../images/sqlite.gif");
+}
+
+.tech12 {
+	background-image: url("../images/ionic.png");
+}
+
+.tech13 {
+	background-color: #000;
+	background-image: url("../images/github.jpg");
+}
+.tech14 {
+	background-image: url("../images/npm.png");
+}
+
+.tech15 {
+	background-image: url("../images/bower.png");
+}
+
+.tech16 {
+	background-image: url("../images/grunt.png");
+}
+
+.tech17 {
+	background-image: url("../images/Mocha.png");
+}
+
+.tech18 {
+	background-image: url("../images/chai.png");
+}
+
+.tech19 {
+	background-image: url("../images/heroku.png");
+}
+
+.tech20 {
+	background-image: url("../images/Jekyll.jpeg");
 }
 
 /* end tech CSS - from Cohort 11 website */
@@ -149,7 +208,7 @@ img {
 }
 
 #about-slide {
-		background-color: blue;
+		background-color: steelblue;
 		background-attachment: static;
 }
 

@@ -65,6 +65,7 @@ img {
 .img-size {
 		max-width: 400px;
     height: 300px;
+    border:1px solid #021a40;
 }
 
 .img-center {
